@@ -72,10 +72,6 @@ ENCABEZADO*/
 }
 
 .img-catolica {
-    background: url(https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/firmas/ucb/logo-ucb.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
