@@ -34,6 +34,7 @@ h1 {
     text-align: left;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
+   
 }
 
 h2 {
@@ -42,8 +43,7 @@ h2 {
     text-align: center;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
-    margin-top: 5px;
-    margin-bottom: 7px;
+  
 }
 
 h3 {
@@ -51,18 +51,10 @@ h3 {
     color: black;
     text-align: left;
     font-weight: 400;
-
     font-family: 'Lato', sans-serif;
+    
 }
 
-p {
-    margin: 0 auto;
-    font-weight: 400;
-    font-size: 1rem;
-    color: black;
-    text-align: justify;
-    line-height: 1.9rem;
-}
 /*END TYPOGRAPHY
  ===============*/
 
@@ -70,12 +62,13 @@ p {
 ENCABEZADO*/
 
 .container-firma{
+    margin-top: 5px;
     display: grid;
     flex-flow: row wrap;
     grid-template-columns: 80px 170px 70px;
     grid-template-rows: 100px 90px;
-    row-gap: 5px;
     column-gap: 5px;
+   
 }
 
 .img-catolica {
@@ -105,11 +98,12 @@ ENCABEZADO*/
 }
 
 .texto{
-text-justify: left;
-grid-column-start: 2;
+    text-justify: left;
+    grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    
 }
 
 .logo-whatsapp{
@@ -130,6 +124,7 @@ grid-column-start: 2;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+   
 
 }
 
