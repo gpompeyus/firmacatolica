@@ -15,22 +15,163 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
+<style>
+    html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*END POR DEFECTO
+ ==========*/
+
+
+/*================
+TYPOGRAPHY*/
+
+h1 {
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+   
+}
+
+h2 {
+    font-size: .9rem;
+    color: black;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+  
+}
+
+h3 {
+    font-size: .9rem;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/*END TYPOGRAPHY
+ ===============*/
+
+/*================
+ENCABEZADO*/
+
+.container-firma{
+    margin-top: 5px;
+    display: grid;
+    flex-flow: row wrap;
+    grid-template-columns: 80px 170px 70px;
+    grid-template-rows: 100px 90px;
+    column-gap: 5px;
+   
+}
+
+.img-catolica {
+    
+}
+
+.img-yo {
+    
+
+}
+
+.texto{
+    text-justify: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+
+.logo-whatsapp{
+    
+    
+}
+
+.link{
+    color: blue;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+   
+
+}
+
+.logo-gmail{
+    
+    
+}
+</style>
+
 </head>
 
 <body>
     <div class="container-firma">
-        <div class="img-catolica"></div>
-        <div class="img-yo"></div>
+        <div class="img-catolica" style="background: url(https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/firmas/ucb/logo-ucb.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;"></div>
+        <div class="img-yo" style="background: url(https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/firmas/ucb/docente.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border-radius: 50px;
+        width: 85px;
+        height: 85px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;"></div>
         <div class="texto">
             <h1>Ing. German Pompeyus Escalante</h1>
             <h2>Docente de Ingeniería Civil</h2>
         <div class="wrapper">
-            <div class="logo-whatsapp"></div>
-            <a href=""><h3 class="link">+591 75322668</h3></a>
+            <div class="logo-whatsapp" style="background: url(https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/firmas/logos/whatsapp.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 25px;
+            height: 25px;"></div>
+            <a href="https://wa.me/59175322668"><h3 class="link">+591 75322668</h3></a>
         </div>
             
         <div class="wrapper">
-        <div class="logo-gmail"></div>
+        <div class="logo-gmail" style="background: url(https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/firmas/logos/Gmail.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+        margin-left: 5px;"></div>
             <h3>gpompeyus@ucb.edu.bo</h3>
         </div>
         </div>
